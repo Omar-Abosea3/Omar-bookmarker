@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-dark">
+    <div class="container overflow-auto p-5">
+        <div class="row mt-5">
+            <div class="w-100 mb-5">
+                <h1 class="fs-2 fw-bold">Bookmarker</h1>
+            </div>
+            <div class="line w-100"></div>
+            <div class="w-100 p-3">
+                <div class="p-5 mb-3 bg-dark" id="form">
+                    <h2 class="text-center text-light mb-5">Bookmark your favorite sites</h2>
+                    <label for="BMName" class="form-label text-light text-center w-100 fs-5 fw-bold mb-3">Site Name</label>
+                    <input type="text" id="BMName" class="form-control w-75 m-auto mb-3" placeholder="Bookmark Name" required>
+                    <div id="validNameMessage" class="text-light bg-danger text-center py-2 my-2 d-none"></div>
+                    <label for="BMLink" class="form-label text-light text-center w-100 fs-5 fw-bold mb-3">Site URL</label>
+                    <input type="text" id="BMLink" class="form-control w-75 m-auto mb-4" placeholder="Website URL" required>
+                    <div id="validLinkMessage" class="text-light bg-danger text-center py-2 my-2 d-none"></div>
+                    <div class="w-100 text-center"><button id="Btn" class="btn btn-primary text-center">Submit</button></div>
+                </div>
+                <table class=" w-100 p-5 text-light">
+                    <thead>
+
+                    </thead>
+                    <tbody id="Trs">
+                    </tbody>
+                </table>
+            </div>
+            <div class="line w-100"></div>
+            <div class="w-100 mt-4 mb-4"><p>© 2019 Bookmarker Inc.</p></div>
+            <din class="w-100">
+            </din>
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

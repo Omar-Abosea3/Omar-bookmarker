@@ -1,0 +1,26 @@
+h1{
+    color: #AAAAAA;
+}
+.line{
+    height: 1px;
+    background-color:#AAAAAA;
+}
+#form{
+    background-color: #EEEEEE;
+}
+p{
+    color:#AAAAAA; 
+}
+table tr{
+    background-image: linear-gradient(to bottom,#282626 50%,#181818);
+    height: 100px;
+}
+h4{
+    font-size: 18px;
+}
+
+@media screen and (max-width:600px) {
+    .TdFont{
+        font-size: 16px !important;
+    }
+}
