@@ -20,7 +20,16 @@ h4{
 }
 
 @media screen and (max-width:600px) {
-    .TdFont{
+      .TdFont{
+        font-size: 14px !important;
+    }
+    #form{
+        padding: 0px !important;
+    }
+    #form input{
+        width: 100% !important;
+    }
+    #form label{
         font-size: 16px !important;
     }
 }
