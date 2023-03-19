@@ -56,8 +56,8 @@ function ClearForm(){
 function displayAllWebsites(){
     var cartoona="";
     for(var i=0;i<allWebsites.length;i++){
-        cartoona+=`<tr>
-        <td class="w-25 TdFont fw-bold fs-5 ps-5">${allWebsites[i].bookMarkName}</td>
+         cartoona+=`<tr class='d-flex justify-content-between align-items-center px-5'>
+        <td class="TdFont fw-bold fs-5">${allWebsites[i].bookMarkName}</td>
         <td><a href="${allWebsites[i].bookMarkLinks}" target="_blank" class="link-light TdFont btn btn-primary me-2 text-decoration-none">Visit</a>
         <button class="btn btn-danger TdFont" onclick="DelBookMark(${i})">Delete</button>
         </td>
