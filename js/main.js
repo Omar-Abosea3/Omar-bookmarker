@@ -58,7 +58,7 @@ function displayAllWebsites(){
     for(var i=0;i<allWebsites.length;i++){
          cartoona+=`<tr class='d-flex justify-content-between align-items-center px-5'>
         <td class="TdFont fw-bold fs-5">${allWebsites[i].bookMarkName}</td>
-        <td><span class="pe-2"><a href="${allWebsites[i].bookMarkLinks}" target="_blank" class="link-light TdFont btn btn-primary text-decoration-none">Visit</a></span>
+        <td class="d-flex justify-content-between align-items-center"><a href="${allWebsites[i].bookMarkLinks}" target="_blank" class="link-light TdFont btn me-2 btn-primary text-decoration-none">Visit</a>
         <button class="btn btn-danger TdFont" onclick="DelBookMark(${i})">Delete</button>
         </td>
     </tr>`
